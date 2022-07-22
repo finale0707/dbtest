@@ -3,9 +3,7 @@ package com.example.dbtest
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -58,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
         if(userList.isNotEmpty()) {
 
-            // 데이터 적용용
+            // 데이터 적용
            adapter.setUserList(userList)
         }
     }
